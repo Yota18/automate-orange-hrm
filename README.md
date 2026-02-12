@@ -1,5 +1,7 @@
 # OrangeHRM Automation Framework
 
+![CI Status](https://github.com/Yota18/automate-orange-hrm/actions/workflows/main.yml/badge.svg)
+
 An End-to-End (E2E) automation framework for the OrangeHRM website using **Cypress**, **TypeScript**, and **Bun**, featuring advanced **Allure Reporting**.
 
 ## 🚀 Features
@@ -21,8 +23,8 @@ An End-to-End (E2E) automation framework for the OrangeHRM website using **Cypre
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd orange-hrm
+git clone https://github.com/Yota18/automate-orange-hrm.git
+cd automate-orange-hrm
 bun install
 ```
 
@@ -62,4 +64,6 @@ This project uses **GitHub Actions** for continuous integration.
     5. Upload artifacts.
     6. **Deploy**: Publishes the report to **GitHub Pages** (branch: `gh-pages`).
 
-
+### 🔗 View Report
+The latest Allure Report is automatically deployed to GitHub Pages:
+[**View Latest Report**](https://yota18.github.io/automate-orange-hrm/)
