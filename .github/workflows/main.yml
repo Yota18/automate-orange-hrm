@@ -25,6 +25,7 @@ jobs:
       - name: Cypress Run
         uses: cypress-io/github-action@v6
         with:
+          install: false
           command: bun run cy:run
           browser: chrome
 
